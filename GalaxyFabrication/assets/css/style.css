@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    padding-top: 80px;
+  }
+  .navbar {
+    background: linear-gradient(135deg, #da42f5, #2a5298) !important;
+  }
+  .navbar-brand img {
+    filter: drop-shadow(0 0 5px gold);
+  }
+  .carousel-item img {
+    /* height: 90vh; */
+    object-fit: cover;
+  }
+  .carousel-caption {
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .card {
+    transition: all 0.4s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important;
+  }
+  .testimonial-card {
+    background: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .text-warning { color: #ffd700 !important; }
+  .btn-warning {
+    background: linear-gradient(45deg, #ffd700, #ffb300);
+    border: none;
+  }
+  footer {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+  }
+  
